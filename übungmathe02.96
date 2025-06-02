@@ -1,0 +1,6 @@
+set.seed(123)
+sample(1:6,8, replace=T)
+
+n=8
+set.seed(123)
+cor(sample(1:6,n,replace=T), sample(1:6,n,replace=T))
